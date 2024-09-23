@@ -1,0 +1,69 @@
+
+<html>
+ <head>
+ <link rel="stylesheet" href="styles.css">
+ </head>
+ <title>
+ Event Submission
+ </title>
+ <header>
+ <h4>Visit our websites</h4>
+ <nav>
+ <ul>
+ <a href = "homepage.html"><em>Homepage</em></a><br>
+ <a href = "event.html"><em>Event Submission</em></a>
+ </ul>
+ </nav>
+
+ </header>
+<h1>
+Event Submission 
+</h1>
+<h3>
+ Organizer Contact Information:
+</h3>
+<p>
+ Bilal Nour - Ahmad Mahmoud<br>b00093681@aus.edu - b00088922@aus.edu
+</p>
+<form>
+ <label>Event Name</label>
+ <input type="event" required><br><br>
+ <label>Date</label>
+ <input type="date" required><br><br>
+ <label>Time</label>
+ <input type =time required><br><br>
+ <label>Location</label>
+ <input><br><br>
+ <label>Brief Description</label>
+ <textarea></textarea><br><br>
+ <label>Is this event open to all students?</label><br>
+ <input type="radio" id="yes" name="choice" value="Yes">
+ <label for="yes">Yes</label><br>
+ <input type="radio" id="no" name="choice" value="No">
+ <label for="no">No</label><br><br>
+ <label>What type of event is this?</label><br>
+
+ <input type="checkbox" id="option1" name="option1" value="Workshop">
+ <label for="option1"> Workshop</label><br>
+ <input type="checkbox" id="option2" name="option2" value="Social">
+ <label for="option2"> Social</label><br>
+ <input type="checkbox" id="option3" name="option3" value="Sports">
+ <label for="option3"> Sports</label><br>
+ <input type="checkbox" id="option4" name="option4" value="Academic">
+ <label for="option4"> Academic</label><br>
+ <input type="checkbox" id="option5" name="option5" value="Other">
+ <label for="option5"> Other</label><br><br>
+ <label for="department-select">Select the department hosting the event:</label>
+ <select name="departments" id="department-select">
+ <option value="">--Please choose a department--</option>
+ <option value="cen">CEN</option>
+ <option value="sba">SBA</option>
+ <option value="cas">CAS</option>
+ <option value="caad">CAAD</option>
+ <option value="osa">OSA</option>
+ <option value="Other">other</option>
+ </select>
+ <br><br><button type = "submit" value = "Submit">Submit</button>
+ <button type="reset">Reset</button><br>
+</form>
+</html>
